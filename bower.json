@@ -1,0 +1,37 @@
+{
+  "name": "bice-lab-app",
+  "description": "Application test for Bice",
+  "version": "0.0.1",
+  "install": {
+    "path": {
+      "js": "app/assets/libs",
+      "css": "app/assets/css"
+    }
+  },
+  "dependencies": {
+    "json3": "^3.3.2",
+    "es5-shim": "^4.5.14",
+    "angular": "^1.8.2",
+    "angular-resource": "^1.8.2",
+    "angular-aria": "^1.8.2",
+    "angular-mocks": "^1.8.2",
+    "angular-cookies": "^1.8.2",
+    "angular-animate": "^1.8.2",
+    "angular-sanitize": "^1.8.2",
+    "angular-material-icons": "^0.7.1",
+    "angular-messages": "^1.8.2",
+    "angular-material": "^1.2.2",
+    "angular-ui-router": "^1.0.29",
+    "lodash": "^4.17.20",
+    "moment": "^2.26.0",
+    "angular-chart.js": "^1.1.1",
+    "angular-filter": "^0.5.17"
+  },
+  "resolutions": {
+    "angular": "^1.8.2",
+    "json3": "^3.3.2",
+    "es5-shim": "^4.5.14",
+    "angular-material-icons": "^0.7.1",
+    "angular-ui-router": "^1.0.29"
+  }
+}

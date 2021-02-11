@@ -1,0 +1,46 @@
+{
+  "name": "bice-lab-app",
+  "description": "Application test for Bice",
+  "version": "0.0.1",
+  "author": "Victor Catalan Perez",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "scripts": {
+    "start": "grunt build",
+    "dev": "grunt dev",
+    "test": "grunt karma",
+    "postinstall": "bower install --config.interactive=false"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "bower": "^1.8.8",
+    "chalk": "^4.1.0",
+    "glob": "^7.1.6",
+    "grunt-cli": "^1.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-angular-templates": "^1.2.0",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^3.0.0",
+    "grunt-injector": "^1.1.0",
+    "grunt-karma": "^4.0.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-firefox-launcher": "^2.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.32",
+    "load-grunt-tasks": "^5.1.0",
+    "time-grunt": "^2.0.0"
+  }
+}
