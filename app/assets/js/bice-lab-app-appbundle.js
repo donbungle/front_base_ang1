@@ -1,5 +1,5 @@
 /*!
-* bice-lab-app - v0.0.1 - MIT LICENSE 2020-12-25. 
+* bice-lab-app - v0.0.1 - MIT LICENSE 2021-02-11. 
 * @author Victor Catalan Perez
 */
 (function() {
